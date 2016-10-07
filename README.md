@@ -1,2 +1,11 @@
-# Atom-Exporter
-An Atom package for exporting your current workspace (or sub folder of it) into Contentful
+# Import Workspace to Contentful
+
+An Atom package for importing a Workspace into Contentful.
+
+To Do:
+
+- [ ] Refactor to JS
+- [ ] License
+- [ ] Better read me
+- [ ] Content type mapping
+- [ ] Other features

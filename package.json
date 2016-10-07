@@ -1,0 +1,19 @@
+{
+  "name": "contentful-import",
+  "main": "./lib/contentful-import",
+  "version": "0.0.1",
+  "description": "Import your Workspace into Contentful",
+  "keywords": [],
+  "activationCommands": {
+    "atom-workspace": "contentful-import:import"
+  },
+  "repository": "https://github.com/contentful-labs/Atom-Exporter",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "contentful-management": "^1.1.13",
+    "sb-scandir": "^1.0.0"
+  }
+}

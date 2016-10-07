@@ -1,0 +1,22 @@
+# See https://atom.io/docs/latest/hacking-atom-package-word-count#menus for more details
+'context-menu':
+  'atom-text-editor': [
+    {
+      'label': 'Toggle contentful-import'
+      'command': 'contentful-import:import'
+    }
+  ]
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'contentful-import'
+      'submenu': [
+        {
+          'label': 'Import'
+          'command': 'contentful-import:import'
+        }
+      ]
+    ]
+  }
+]
